@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "homepage"
+    label: "Ana Sayfa"
+    description: "Homepage content and sections"
+    files:
+      - name: "hero"
+        label: "Hero Section"
+        file: "content/homepage/hero.json"
+        fields:
+          - { label: "Title (Turkish)", name: title_tr, widget: string }
+          - { label: "Title (English)", name: title_en, widget: string }
+          - { label: "Subtitle (Turkish)", name: subtitle_tr, widget: string }
+          - { label: "Subtitle (English)", name: subtitle_en, widget: string }
+          - { label: "Background Video URL", name: videoUrl, widget: string, required: false }
+
+  - name: "products"
+    label: "Ürünler"
+    label_singular: "Ürün"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Ürün Adı", name: name, widget: string }
+      - { label: "Kategori", name: category, widget: select, options: ["diesel-generators", "portable-generators", "soundproof-generators"] }
+      - { label: "Güç", name: power, widget: string }
+      - { label: "Motor", name: engine, widget: string }
+      - { label: "Açıklama", name: description, widget: text }
+      - { label: "Görsel", name: image, widget: image, required: false }
+
+  - name: "projects"
+    label: "Projeler"
+    label_singular: "Proje"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Proje Adı", name: title, widget: string }
+      - { label: "Lokasyon", name: location, widget: string }
+      - { label: "Güç (kVA)", name: power, widget: string }
+      - { label: "Açıklama", name: description, widget: text }
+      - { label: "Görsel", name: image, widget: image, required: false }
+
+  - name: "settings"
+    label: "Ayarlar"
+    files:
+      - name: "general"
+        label: "Genel Ayarlar"
+        file: "content/settings.json"
+        fields:
+          - { label: "Site Adı", name: siteName, widget: string }
+          - { label: "Slogan", name: tagline, widget: string }
+          - { label: "E-posta", name: email, widget: string }
+          - { label: "Telefon", name: phone, widget: string }
+          - { label: "Adres", name: address, widget: string }
