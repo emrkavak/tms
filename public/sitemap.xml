@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tmgpower.com.tr/tr</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://tmgpower.com.tr/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tmgpower.com.tr/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tmgpower.com.tr/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tmgpower.com.tr/ru" />
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tmgpower.com.tr/tr/products</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://tmgpower.com.tr/tr/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tmgpower.com.tr/en/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tmgpower.com.tr/tr/solutions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tmgpower.com.tr/tr/services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tmgpower.com.tr/tr/projects</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tmgpower.com.tr/tr/corporate/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tmgpower.com.tr/tr/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

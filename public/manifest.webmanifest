@@ -1,0 +1,12 @@
+{
+  "name": "TMG Power",
+  "short_name": "TMG Power",
+  "description": "Generator systems and energy solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0F172A",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }
+  ]
+}
